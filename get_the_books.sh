@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo "current directory: $(pwd)"
+
+# Including Books directory if it DNE
+mkdir -p Books
+
 #edgar's book IDs
 book_ids=("932" "17192" "1064" "1063" "2148" "2147" "2150" "50852" "25266" "32037")
 

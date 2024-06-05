@@ -1,7 +1,7 @@
 default:
 	@cat makefile
 
-get texts:
+get_texts:
 	@bash get_the_books.sh
 
 raven_line_count:
