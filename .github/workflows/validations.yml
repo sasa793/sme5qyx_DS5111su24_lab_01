@@ -22,6 +22,9 @@ jobs:
         run: |
           make setup_env
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Download books
+        run: |
+          make get_texts
       - name: Test with pytest
         run: |
           pytest -vvx tests/
