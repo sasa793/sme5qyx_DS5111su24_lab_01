@@ -13,7 +13,7 @@
  
 ### Example code for clean_text(input_text)
 
-* input_text = "My name is Sarah and this is my last semester!"
+* input_text = "My name is Sarah and this is my last semester!!"
 * cleaned_text = clean_text(input_text)
 * print(cleaned_text)
 * output:
