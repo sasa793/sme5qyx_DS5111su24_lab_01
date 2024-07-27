@@ -16,7 +16,7 @@
 * input_text = "My name is Sarah and this is my last semester!"
 * cleaned_text = clean_text(input_text)
 * print(cleaned_text)
-  * output:
-    - my name is sarah and this is my last semester 
+- output:
+`my name is sarah and this is my last semester`
 
  
