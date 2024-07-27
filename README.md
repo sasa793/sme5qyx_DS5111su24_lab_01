@@ -1,4 +1,5 @@
 # sme5qyx_DS5111su24_lab_01
+[![Python package](https://github.com/sasa793/sme5qyx_DS5111su24_lab_01/actions/workflows/validations.yml/badge.svg)](https://github.com/sasa793/sme5qyx_DS5111su24_lab_01/actions/workflows/validations.yml)
 
 ### tokenizer_functions.py
 
