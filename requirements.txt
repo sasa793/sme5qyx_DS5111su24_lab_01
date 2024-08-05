@@ -1,5 +1,2 @@
-attrs==23.2.0
-Automat==22.10.0
-Babel==2.10.3
-pytest
+pytest==7.4.4
 pylint

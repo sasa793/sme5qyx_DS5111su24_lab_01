@@ -3,10 +3,10 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sme5qyx"
+name = "pkg_sme5qyx"
 version = "0.0.1"
 authors = [
-  { name="Sarah Elmasry", email="selmasry@mail.swvgs.us" },
+  { name="Sarah Elmasry", email="sme5qyx@virginia.edu" },
 ]
 description = "A small example package"
 readme = "README.md"
