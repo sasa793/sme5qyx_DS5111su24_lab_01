@@ -28,8 +28,14 @@ setup_env:
 	python3 -m venv env
 	. env/bin/activate; pip install --upgrade pip; pip install -r requirements.txt
 
-test:
+.PHONY: test
+test: lint
 	pytest -m "not integration" -v
 
-test_integration:
+.PHONY: test_integration
+test_integration: lint
 	pytest -m "integration" -v
+
+.PHONY: lint
+lint:
+	pylint src/pkg_sme5qyx/tokenizer_functions.py
