@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkg_sme5qyx"
+version = "0.0.1"
+authors = [
+  { name="Sarah Elmasry", email="sme5qyx@virginia.edu" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/sasa793/sme5qyx_DS5111su24_lab_01"
+Issues = "https://github.com/sasa793/sme5qyx_DS5111su24_lab_01/issues"
